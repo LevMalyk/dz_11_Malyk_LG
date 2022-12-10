@@ -1,0 +1,5 @@
+<h1>Найдено со скилом {{ skill }}: {{ counter }}</h1>
+
+{% for skill in skills %}
+    <p><a href="/candidate/{{ skill.name }}">{{ skill.name }}</a></p>
+{% endfor %}

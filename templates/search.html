@@ -1,0 +1,5 @@
+<h1>Найдено кандидатов: {{ counter }}</h1>
+
+{% for user in users %}
+    <p><a href="/candidate/{{ user }}">{{ user }}</a></p>
+{% endfor %}
